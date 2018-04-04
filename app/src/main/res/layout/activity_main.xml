@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getTagsByPopularity"
+        android:text="@string/get_by_popularity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getTagsByName"
+        android:text="@string/get_by_name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getTagsByCache"
+        android:text="@string/get_by_cache"/>
+
+    <TextView
+        android:id="@+id/tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getTagsByCache"
+        android:padding="16dp"/>
+
+</LinearLayout>

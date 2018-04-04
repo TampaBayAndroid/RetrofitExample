@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RetrofitExample</string>
+    <string name="get_by_popularity">Get tags by popularity</string>
+    <string name="get_by_name">Get tags by name</string>
+    <string name="get_by_cache">Get tags via cache</string>
+</resources>
